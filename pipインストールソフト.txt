@@ -1,0 +1,18 @@
+pip install oandapyV20
+pip install backtesting
+pip install mpl_finance
+pip install --upgrade mplfinance
+
+pip install matplotlib.finance
+#これはバージョンが古くインストールできない模様
+
+conda create -n keras-cpu python=3.6 jupyter
+activate keras-cpu
+ipython kernel install --user --name=keras-py3.6 --display-name=keras-py3.6
+#Microsoft Visual C++ 2019 再頒布可能ファイル
+#Microsoft Build Tools 2019
+pip install tensorflow
+pip install keras
+#keras-cpu環境でほかにもいろいろインストール必要
+
+pip install statsmodels
